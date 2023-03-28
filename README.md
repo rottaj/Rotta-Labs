@@ -21,7 +21,7 @@
 
 ## Contributors
 <ul>
-<li>a href="https://www.github.com/rottaj">rottaj</li>
+<li><a href="https://www.github.com/rottaj">rottaj</li>
 </ul>
 
 ## Acknowledgments
