@@ -28,4 +28,5 @@
 <ul>
 <li>UT Cybersecurity Bootcamp staff and instructors</li>
 <li>Open-source contributors to NextJS, Ethers Js, and Rive.app libraries.</li>
+<li>Chat GPT for creating this README.md :wink: </li>
 </ul>
