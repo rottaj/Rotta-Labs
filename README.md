@@ -8,8 +8,8 @@
 <p>To get started with this project, you will need an Azure account and access to a virtual machine. You will also need to install Node.js and the necessary dependencies.</p>
 <ol>
 <li>Clone the repository to your local machine</li>
-<li>Install dependencies by running <code>npm install</code></li>
-<li>Start the development server by running <code>npm run dev</code></li>
+<li>Build the docker container: <code>docker build -t Rotta-Labs .</code></li>
+<li>Run the container: <code>docker run -p 3000:3000 Rotta-Labs/code></li>
 </ol>
 
 ## Built With
