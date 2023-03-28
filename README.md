@@ -9,7 +9,7 @@
 <ol>
 <li>Clone the repository to your local machine</li>
 <li>Build the docker container: <code>docker build -t Rotta-Labs .</code></li>
-<li>Run the container: <code>docker run -p 3000:3000 Rotta-Labs/code></li>
+<li>Run the container: <code>docker run -p 3000:3000 Rotta-Labs</code></li>
 </ol>
 
 ## Built With
