@@ -68,7 +68,7 @@ const FooterContainer = () => {
                                     fontSize="15px"
                                 >
                                     <Link
-                                        href="https://test-155.gitbook.io/test/"
+                                        href=""
                                         isExternal
                                     >
                                         About
@@ -79,7 +79,7 @@ const FooterContainer = () => {
                                     fontSize="15px"
                                 >
                                     <Link
-                                        href="https://test-155.gitbook.io/test/company/careers"
+                                        href=""
                                         isExternal
                                     >
                                         Careers
@@ -135,12 +135,12 @@ const FooterContainer = () => {
                     <Text color="black">Get the freshest news from rottaj!</Text>
                     <InputGroup size='lg' width="500px">
                         <Input
-                            pr='4.5rem'
+                            pr='8.5rem'
 
                             placeholder='Your email here'
                         />
-                        <InputRightElement width='4.5rem' pr="15px">
-                            <Button h='1.75rem'  size='sm' >
+                        <InputRightElement width='7rem' pr="15px">
+                            <Button h='1.75rem' w='4.75rem' size='sm' >
                                 Subscribe!
                             </Button>
                         </InputRightElement>
@@ -152,7 +152,7 @@ const FooterContainer = () => {
             <Box
                 padding="20px"
             >
-                <Text color="black" fontSize="12px">© 2023 rottaj, Inc. All Rights Reserved.</Text>
+                <Text color="black" fontSize="12px">© 2023 Rotta Labs, Inc. All Rights Reserved.</Text>
             </Box>
             </>
         </Box>

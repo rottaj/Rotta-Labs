@@ -23,63 +23,61 @@ export default BlogContainer;
 
 const BlogPost = () => {
     return (
-        <>
         <Box>
-        <Box>
-        <Text className="glass-card-title">
-          <a href="#"> Title </a>
-        </Text>
-        <Box className="tags">
-          <a href="#" rel="tag">tag 1</a>
-          <a href="#" rel="tag">tag 2</a>
+          <Box>
+          <Text className="glass-card-title">
+            <a href="#"> Title </a>
+          </Text>
+          <Box className="tags">
+            <a href="#" rel="tag">tag 1</a>
+            <a href="#" rel="tag">tag 2</a>
+          </Box>
+          <Text>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus
+            excepturi veritatis vitae corporis! Dolorum soluta similique qui
+            assumenda. Suscipit in voluptatibus nam iure obcaecati. Officiis
+            minima illo inventore magni odio.
+          </Text>
+          <Box className="author-row">
+            <a className="author-name" href="#"> Author </a>
+          </Box>
         </Box>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus
-          excepturi veritatis vitae corporis! Dolorum soluta similique qui
-          assumenda. Suscipit in voluptatibus nam iure obcaecati. Officiis
-          minima illo inventore magni odio.
-        </p>
-        <Box className="author-row">
-          <a className="author-name" href="#"> Author </a>
+        <Box className="glass-card">
+          <Text className="glass-card-title">
+            <a href="#"> Title </a>
+          </Text>
+          <Box className="tags">
+            <a href="#" rel="tag">tag 1</a>
+            <a href="#" rel="tag">tag 2</a>
+          </Box>
+          <Text>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus
+            excepturi veritatis vitae corporis! Dolorum soluta similique qui
+            assumenda. Suscipit in voluptatibus nam iure obcaecati. Officiis
+            minima illo inventore magni odio.
+          </Text>
+          <Box className="author-row">
+            <a className="author-name" href="#"> Author </a>
+          </Box>
         </Box>
-      </Box>
-      <Box className="glass-card">
-        <Text className="glass-card-title">
-          <a href="#"> Title </a>
-        </Text>
-        <Box className="tags">
-          <a href="#" rel="tag">tag 1</a>
-          <a href="#" rel="tag">tag 2</a>
+        <Box className="glass-card">
+          <Text className="glass-card-title">
+            <a href="#"> Title </a>
+          </Text>
+          <Box className="tags">
+            <a href="#" rel="tag">tag 1</a>
+            <a href="#" rel="tag">tag 2</a>
+          </Box>
+          <Text>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus
+            excepturi veritatis vitae corporis! Dolorum soluta similique qui
+            assumenda. Suscipit in voluptatibus nam iure obcaecati. Officiis
+            minima illo inventore magni odio.
+          </Text>
+          <Box className="author-row">
+            <a className="author-name" href="#"> Author </a>
+          </Box>
+          </Box>
         </Box>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus
-          excepturi veritatis vitae corporis! Dolorum soluta similique qui
-          assumenda. Suscipit in voluptatibus nam iure obcaecati. Officiis
-          minima illo inventore magni odio.
-        </p>
-        <Box className="author-row">
-          <a className="author-name" href="#"> Author </a>
-        </Box>
-      </Box>
-      <Box className="glass-card">
-        <Text className="glass-card-title">
-          <a href="#"> Title </a>
-        </Text>
-        <Box className="tags">
-          <a href="#" rel="tag">tag 1</a>
-          <a href="#" rel="tag">tag 2</a>
-        </Box>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus
-          excepturi veritatis vitae corporis! Dolorum soluta similique qui
-          assumenda. Suscipit in voluptatibus nam iure obcaecati. Officiis
-          minima illo inventore magni odio.
-        </p>
-        <Box className="author-row">
-          <a className="author-name" href="#"> Author </a>
-        </Box>
-      </Box>
-        </Box>
-        </>
     )
 }

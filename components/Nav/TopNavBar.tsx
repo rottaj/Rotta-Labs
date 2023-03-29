@@ -53,7 +53,7 @@ const TopNavBar = () => {
             <Box
                 _hover={{color:"white"}}
             >
-                <Link href="https://twitter.com/ThrackleLabs" isExternal>
+                <Link href="https://twitter.com/" isExternal>
                     <Text
                         fontSize="20px"
                     >
@@ -64,7 +64,7 @@ const TopNavBar = () => {
             <Box
                 _hover={{color:"white"}}
             >
-                <Link href="https://medium.com/thrackle" isExternal>
+                <Link href="https://medium.com/" isExternal>
                     <Text
                         fontSize="20px"
                     >
@@ -75,7 +75,7 @@ const TopNavBar = () => {
             <Box
                 _hover={{color:"white"}}
             >
-                <Link href="https://test-155.gitbook.io/test/company/careers" isExternal>
+                <Link href="" isExternal>
                     <Text
                         fontSize="20px"
                     >

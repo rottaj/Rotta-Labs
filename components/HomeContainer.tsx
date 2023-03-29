@@ -44,7 +44,7 @@ const HomeContainer = () => {
                         fontSize="50px"
                     >
                         {/*<Image src="Logo.gif"></Image>*/}
-                        We're researchers and developers focused on the blockchain space. {/*Sit Upet Olmet Colondor Sitenorein Ropesten*/}
+                        We're researchers and developers focused on blockchain and information security. {/*Sit Upet Olmet Colondor Sitenorein Ropesten*/}
 
                     </Text>
                     <Box
@@ -53,8 +53,7 @@ const HomeContainer = () => {
                         letterSpacing="normal"
                         lineHeight="30px"
                     >
-                        The open and interoperable nature of defi protocols is exciting and we leverage them to increase opportunity and fairness. We are a cross-functional team of 
-                        continuous learners that target difficult, challenging problems that take focus and diligence to solve. 
+                       <Text>Welcome to our research and development group! We are a team of continuous learners who are passionate about tackling difficult and challenging problems in the blockchain and information security space. </Text>
                     </Box>
                     <HStack
                         pt="10px"
@@ -74,7 +73,7 @@ const HomeContainer = () => {
                                     borderWidth:"2px"
                                 }}
                             >
-                                Explore App
+                                Explore!
                             </Box>
                         </Link>
                         <Box
@@ -91,7 +90,7 @@ const HomeContainer = () => {
                             }}
                         >
                             <Link
-                                href="https://test-155.gitbook.io/test/"
+                                href=""
                             >
                                 Learn More
                             </Link>
