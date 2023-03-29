@@ -15,7 +15,6 @@ const AppBaseContainer = () => {
     return (
         <Box
         >
-            Test
             {!walletAddress &&
                 <ConnectWallet isOpen={isOpen} onOpen={onOpen} onClose={onClose}/>
             }

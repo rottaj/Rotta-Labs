@@ -17,6 +17,7 @@
     "react-icons": "^4.4.0",
     "react-tsparticles": "^2.3.3",
     "rive-react": "^3.0.26",
+    "sass": "^1.60.0",
     "tsparticles-slim": "^2.3.4"
   },
   "devDependencies": {

@@ -6,6 +6,7 @@ import {
 } from "@chakra-ui/react";
 import AppBaseContainer from "./BaseContainers/AppBaseContainer";
 import TopNavBarApp from "./Nav/TopNavBarApp";
+import BlogContainer from "./BlogContainer";
 
 const AppContainer = () => {
 
@@ -20,12 +21,9 @@ const AppContainer = () => {
                 <title>Rottaj Labs</title>
                 <link rel="shortcut icon" href="/thrackle_logo.ico" />
             </Head>
-            <TopNavBarApp/>
+            {/*<TopNavBarApp/> */}
             <AppBaseContainer/>
-            <Box
-            >
-                App Interface
-            </Box>
+            <BlogContainer/>
         </Box>
     )
 }
