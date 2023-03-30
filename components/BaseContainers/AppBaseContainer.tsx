@@ -5,6 +5,7 @@ import {
     useDisclosure
 } from "@chakra-ui/react";
 import ConnectWallet from "../Modals/ConnectWallet";
+import TopNavBarApp from "../Nav/TopNavBarApp";
 
 const AppBaseContainer = () => {
 
@@ -15,6 +16,7 @@ const AppBaseContainer = () => {
     return (
         <Box
         >
+            <TopNavBarApp/>
             {!walletAddress &&
                 <ConnectWallet isOpen={isOpen} onOpen={onOpen} onClose={onClose}/>
             }

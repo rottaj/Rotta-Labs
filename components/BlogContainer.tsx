@@ -1,10 +1,13 @@
 import react from 'react';
+import Link from 'next/link';
 import {
     Box,
     Grid,
     GridItem,
     Text
 } from "@chakra-ui/react";
+import { LinkPreview } from '@dhaiwat10/react-link-preview';
+
 
 const BlogContainer = () => {
     return (
@@ -22,6 +25,7 @@ const BlogContainer = () => {
                   tag_one="Ethereum"
                   tag_two="EVM"
                   tag_three="Go"
+                  link="https://www.github.com/rottaj/EVMExplorer"
                   />
                 <BlogPost
                   title="RaffleHouse" 
@@ -30,6 +34,7 @@ const BlogContainer = () => {
                   tag_one="Ethereum"
                   tag_two="NFT"
                   tag_three="Gambling"
+                  link="https://www.github.com/rottaj/RaffleHouse"
                 />
                 <BlogPost
                   title="Cookie Monster" 
@@ -38,6 +43,7 @@ const BlogContainer = () => {
                   tag_one="Penetration Testing"
                   tag_two="Hacking"
                   tag_three="Malware Analysis"
+                  link="https://www.github.com/rottaj/CookieMonster"
                 />
                 <BlogPost
                   title="Eyescream NFT" 
@@ -46,6 +52,7 @@ const BlogContainer = () => {
                   tag_one="Ethereum"
                   tag_two="NFT"
                   tag_three=""
+                  link="https://www.github.com/rottaj/Eyescream-NFT"
                 />
                 <BlogPost
                   title="Smart Wallet" 
@@ -54,6 +61,7 @@ const BlogContainer = () => {
                   tag_one="Ethereum"
                   tag_two="Chrome extensions"
                   tag_three="Cryptography"
+                  link="https://www.github.com/rottaj/SmartWallet"
                 />
                 <BlogPost
                   title="Awesome Web Punk" 
@@ -62,6 +70,7 @@ const BlogContainer = () => {
                   tag_one="Information Security"
                   tag_two="Hacking"
                   tag_three=""
+                  link="https://www.github.com/rottaj/Awesome-WebPunk"
                 />
                 <BlogPost
                   title="Fun DAO" 
@@ -70,6 +79,7 @@ const BlogContainer = () => {
                   tag_one="Ethereum"
                   tag_two="DeFi"
                   tag_three=""
+                  link="https://www.github.com/rottaj/FunDAO"
                 />
         </Grid>
     )
@@ -85,11 +95,13 @@ type BlogPostProps = {
   tag_one: string;
   tag_two: string;
   tag_three: string;
+  link: string;
 }
 
 const BlogPost = (props: BlogPostProps) => {
     return (
         <GridItem>
+          <Link href={props.link}>
           <Box className="glass-card">
             <Text className="glass-card-title">
               <a href="#"> {props.title} </a>
@@ -102,10 +114,12 @@ const BlogPost = (props: BlogPostProps) => {
             <Text>
               {props.description}
             </Text>
+            {/*<LinkPreview url={props.link}/>*/}
             <Box className="author-row">
               <a className="author-name" href="#"> {props.author}</a>
             </Box>
           </Box>
+        </Link>
         </GridItem>
     )
 }
